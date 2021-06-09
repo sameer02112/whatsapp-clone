@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Whatsapp clone</h1>
-      </header>
+    <div className="app">
+    
+      <div className="app_body">
+        {/* sidebar */}
+        <Sidebar/>
+
+        {/* chatbar */}
+      </div>
     </div>
   );
 }
