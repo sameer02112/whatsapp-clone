@@ -1,4 +1,6 @@
+// import { Chat } from '@material-ui/icons';
 import './App.css';
+import Chat from './Chat';
 import Sidebar from './Sidebar';
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
         <Sidebar/>
 
         {/* chatbar */}
+        <Chat/>
+        
       </div>
     </div>
   );
